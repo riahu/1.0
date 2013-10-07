@@ -25,6 +25,12 @@ p {
 	color: #3F1373;
 }
 
+img.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav ul {
 	background-color: #AAA;
 	width: 70%;
