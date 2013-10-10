@@ -1,34 +1,138 @@
 @import url(reset.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
-@import url(http://fonts.googleapis.com/css?family=Arapey:400italic,400);
+@import url(http://fonts.googleapis.com/css?family=Macondo+Swash+Caps);
 
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-image: url('../img/pizza1.jpg');
+	text-align: center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 
-p {
-	font-family: 'Arapey', serif;
+p { 
+	display: block;
+	padding: 5px;
+}
+
+h1 {
+	font-size: 300%;
+	font-family: 'Macondo Swash Caps', sans-serif;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 200%;
+	font-family: 'Macondo Swash Caps', sans-serif;
+	padding: 5px;
+	padding-top: 15px;
+}
+
+h3 {
+	font-style: bold;
+	font-size: 150%;
 }
 
 .content-box {
 	width: 75%;
 	background-color: #FFF;
-	margin: 0 auto;
+	margin: 0 0 0 5%;
+	margin-top: 50px;
 	box-shadow: 2px 2px 6px #555;
 	opacity: 0.8;
 }
 
-.name {
-	font-size: 400%;
+.top {
+	font-size: 64px;
 	text-align: center;
 	color: #3F1373;
+}
+
+.menu-lists {
+	width: 60%;
+	margin: 0 auto;
+	border-style: double;
+	border-color: #EEE;
+	border-width: 2px;
+	padding-bottom: 15px;
+}
+
+.menu-lists h1 {
+	font-size: 150%;
+	font-family: 'Macondo Swash Caps', sans-serif;
+}
+
+.menu-lists p {
+	font-size: 110%;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+.menu-lists dl{
+	width: 70%;
+    border: 3px double #EEE;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+.menu-lists dt {
+    font-weight: bold;
+    color: #000;
+}
+
+.menu-lists dt:after {
+    content: ":";
+}
+
+.menu-lists dd {
+    margin: 0 0 0 0;
+    padding: 0 0 0.5em 0;
+    text-align: right;
+}
+
+.menu-lists em {
+	font-style: italic;
+	display: block;
+}
+
+hr {
+     color: #3F1373;
+     background: #3F1373; 
+     width: 70%; 
+     height: 3px;
+}
+
+footer {
+	font-size: 80%;
+	font-style: italic;
+	text-align: center;
+	border-top: double #000;
+	border-width: 3px;
+	padding: 3px;
+}
+
+footer p {
+	padding: 0px;
 }
 
 img.display {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-style: double;
+    border-color: #000;
+    border-width: 5px;
+    max-width: 60%;
+}
+
+img.logo {
+	right: 0px;
+	bottom: 0px;
+	position: fixed;
+	max-width: 10%;
+	border-style: solid;
+	border-color: #EEE;
+	border-width: 5px;
 }
 
 nav ul {
@@ -37,10 +141,14 @@ nav ul {
 	border-radius: 15px;
 	margin: 0 auto;
 	text-align: center;
+	clear: both;
 }
 
 nav li {
 	display: inline-block;
+	text-transform: uppercase; 
+	padding: 0px;
+	letter-spacing: 5px;
 }
 
 nav a {
@@ -57,6 +165,29 @@ nav a:visited {
 
 nav a:hover {
 	background: #9E77D6;
+}
+
+dl {
+	border: 3px double #ccc;
+	padding: 0.5em;
+}
+
+dt {
+	float: left;
+	clear: left;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+	color: #000641;
+}
+
+dt:after {
+	content: ":";
+}
+
+dd {
+	margin: 0 0 0 110px;
+	padding: 0 0 0.5em 0;
 }
 
 /*dark purple: 3F1373;
