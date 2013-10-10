@@ -31,6 +31,7 @@ h2 {
 h3 {
 	font-style: bold;
 	font-size: 150%;
+	padding-top: 15px;
 }
 
 .content-box {
@@ -38,14 +39,38 @@ h3 {
 	background-color: #FFF;
 	margin: 0 0 0 5%;
 	margin-top: 50px;
+	margin-bottom: 50px;
 	box-shadow: 2px 2px 6px #555;
 	opacity: 0.8;
+}
+
+section {
+	width: 70%;
+	margin: 0 auto;
+	line-height: 1.5em;
+}
+
+.floater {
+	right: 20px;
+	top: 0px;
+	width: 10%;
+	position: fixed;
+	background-color: #FFF;
+	box-shadow: 2px 2px 6px #555;
 }
 
 .top {
 	font-size: 64px;
 	text-align: center;
 	color: #3F1373;
+}
+
+.contact {
+	width: 60%;
+	margin: 0 auto;
+	border-style: dotted;
+	border-color: #EEE;
+	border-width: 3px;
 }
 
 .menu-lists {
@@ -90,16 +115,16 @@ h3 {
     text-align: right;
 }
 
-.menu-lists em {
+em {
 	font-style: italic;
 	display: block;
 }
 
 hr {
-     color: #3F1373;
-     background: #3F1373; 
-     width: 70%; 
-     height: 3px;
+	color: #3F1373;
+	background: #3F1373; 
+	width: 70%; 
+	height: 3px;
 }
 
 footer {
@@ -109,6 +134,7 @@ footer {
 	border-top: double #000;
 	border-width: 3px;
 	padding: 3px;
+	margin-top: 3em;
 }
 
 footer p {
@@ -138,7 +164,6 @@ img.logo {
 nav ul {
 	background-color: #AAA;
 	width: 70%;
-	border-radius: 15px;
 	margin: 0 auto;
 	text-align: center;
 	clear: both;
